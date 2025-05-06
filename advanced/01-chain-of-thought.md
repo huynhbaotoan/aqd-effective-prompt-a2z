@@ -65,10 +65,8 @@ Include specific prompts that encourage reasoning at each step.
 ```
 Task: Debug the following recursive function that's causing a stack overflow.
 
-```python
 def calculate_factorial(n):
     return n * calculate_factorial(n-1)
-```
 
 For each step of your debugging process:
 - What might be causing this issue?
@@ -105,11 +103,9 @@ Request specific outputs at intermediate steps to ensure the reasoning is on tra
 ```
 Task: Refactor this monolithic function into smaller, reusable components.
 
-```python
 def process_order(order_data):
     # 50 lines of code handling validation, processing, notification, etc.
     pass
-```
 
 For each step of the refactoring:
 1. Identify responsibilities in the original function (list them)
@@ -183,13 +179,11 @@ Frame the problem-solving process as testing hypotheses.
 ```
 Task: Debug why this database query is performing slowly.
 
-```sql
 SELECT u.name, COUNT(o.id) as order_count
 FROM users u
 JOIN orders o ON u.id = o.user_id
 WHERE o.status = 'completed'
 GROUP BY u.name
-```
 
 Approach this as a hypothesis-driven investigation:
 1. Form initial hypotheses about potential causes
