@@ -32,7 +32,7 @@ Amazon Q Developer can:
 **Example Prompt:**
 ```
 Explain how the following Python code works:
-```python
+
 def quicksort(arr):
     if len(arr) <= 1:
         return arr
@@ -41,7 +41,6 @@ def quicksort(arr):
     middle = [x for x in arr if x == pivot]
     right = [x for x in arr if x > pivot]
     return quicksort(left) + middle + quicksort(right)
-```
 ```
 
 ### 3. Code Transformation
@@ -56,7 +55,7 @@ Amazon Q Developer can:
 **Example Prompt:**
 ```
 Refactor this JavaScript function to use modern ES6 features:
-```javascript
+
 function getUsers(callback) {
   var xhr = new XMLHttpRequest();
   xhr.open('GET', 'https://api.example.com/users', true);
@@ -71,7 +70,6 @@ function getUsers(callback) {
   xhr.send();
 }
 ```
-```
 
 ### 4. Debugging Assistance
 
@@ -85,14 +83,13 @@ Amazon Q Developer can:
 **Example Prompt:**
 ```
 Debug this Python code that's throwing an IndexError:
-```python
+
 def get_element(list_input, index):
     return list_input[index]
 
 my_list = [1, 2, 3]
 result = get_element(my_list, 5)
 print(result)
-```
 ```
 
 ### 5. Documentation
@@ -107,7 +104,7 @@ Amazon Q Developer can:
 **Example Prompt:**
 ```
 Write comprehensive docstrings for this Python class:
-```python
+
 class DataProcessor:
     def __init__(self, filepath):
         self.filepath = filepath
@@ -126,7 +123,6 @@ class DataProcessor:
         with open(output_path, 'w') as f:
             json.dump(results, f, indent=2)
 ```
-```
 
 ### 6. Testing Support
 
@@ -140,7 +136,7 @@ Amazon Q Developer can:
 **Example Prompt:**
 ```
 Write unit tests for this JavaScript function using Jest:
-```javascript
+
 function calculateDiscount(price, discountPercent) {
   if (typeof price !== 'number' || typeof discountPercent !== 'number') {
     throw new Error('Price and discount must be numbers');
@@ -153,7 +149,6 @@ function calculateDiscount(price, discountPercent) {
   const discountAmount = price * (discountPercent / 100);
   return price - discountAmount;
 }
-```
 ```
 
 ## Limitations

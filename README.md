@@ -52,14 +52,6 @@ This guide is organized into the following sections:
 
 Start with the basics and progress through the sections sequentially. Each module builds upon the knowledge from previous ones. Complete the exercises in each section to practice and reinforce your learning.
 
-## Contributing
-
-If you have suggestions for improving this guide, please submit a pull request or open an issue.
-
-## License
-
-This guide is licensed under [appropriate license].
-
 ---
 
 Let's begin your journey to mastering prompt engineering for Amazon Q Developer!
