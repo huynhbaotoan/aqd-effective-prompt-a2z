@@ -108,9 +108,8 @@ Expected Output: Please provide a complete [language] [code type] with comments 
 Task: Explain how the following [language] code works
 
 Code:
-```[language]
-[code snippet]
-```
+    [code snippet]
+
 
 Context: This is part of [larger system description].
 
@@ -127,9 +126,7 @@ Expected Output: Please provide a detailed explanation with:
 Task: Debug the following code that's [description of issue]
 
 Code:
-```[language]
-[problematic code]
-```
+    [problematic code]
 
 Error Message:
 [error message if available]
@@ -145,9 +142,8 @@ Expected Output: Please identify the issue, explain why it's happening, and prov
 Task: Refactor this code to [improvement goal]
 
 Original Code:
-```[language]
-[code to refactor]
-```
+    [code to refactor]
+
 
 Context: This code is [context about the code's purpose and environment].
 
