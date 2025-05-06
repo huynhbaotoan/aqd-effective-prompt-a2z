@@ -46,7 +46,7 @@ This is part of a customer-facing analytics dashboard we're building. We've alre
 **Example:**
 ```
 Here's our current database schema:
-```sql
+
 CREATE TABLE users (
   id UUID PRIMARY KEY,
   email VARCHAR(255) UNIQUE NOT NULL,
@@ -59,7 +59,6 @@ CREATE TABLE user_preferences (
   preference_value TEXT NOT NULL,
   PRIMARY KEY (user_id, preference_key)
 );
-```
 
 The function needs to work with this existing schema.
 ```
@@ -211,11 +210,9 @@ Use formatting to separate different types of context.
 Generate a Python function to process image uploads in AWS Lambda
 
 # EXISTING CODE
-```python
 def lambda_handler(event, context):
     # TODO: Implement image processing
     pass
-```
 
 # REQUIREMENTS
 - Extract image metadata
